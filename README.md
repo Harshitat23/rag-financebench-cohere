@@ -21,8 +21,8 @@ RAG Pipeline with Cohere Embeddings on FinanceBench Dataset for Financial Questi
 
   ## Features
 
--  Preprocesses and cleans financial documents and queries
-- Batches embedding calls with retry and backoff logic
-- Uses HNSW FAISS index with fine-tuned parameters for improved recall
-- Includes advanced relevance function to better match answers using both semantic and numeric content
+-  Preprocesses and cleans financial documents and queries.
+- Batches embedding calls with retry and backoff logic.
+- Uses HNSW FAISS index with fine-tuned parameters for improved recall.
+- Includes advanced relevance function to better match answers using both semantic and numeric content.
 - Logs query-level precision scores and top document matches
